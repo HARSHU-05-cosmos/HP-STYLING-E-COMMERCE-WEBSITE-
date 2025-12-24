@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">HP STYLING</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#offers">Offers</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>New Season Arrivals</h1>
+            <p>Trends up to 50% off.</p>
+            <a href="#products" class="btn-primary">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="categories" class="section-padding">
+        <h2 class="section-title">Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?w=500&auto=format&fit=crop" class="cat-img" alt="Men">
+                <div class="cat-info"><h3>Men</h3></div>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=500&auto=format&fit=crop" class="cat-img" alt="Women">
+                <div class="cat-info"><h3>Women</h3></div>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=500&auto=format&fit=crop" class="cat-img" alt="Watches">
+                <div class="cat-info"><h3>Accessory</h3></div>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop" class="cat-img" alt="Shoes">
+                <div class="cat-info"><h3>Footwear</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="section-padding">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&auto=format&fit=crop" class="product-img">
+                <div class="product-info">
+                    <h3>White Tee</h3>
+                    <p class="price">$25.00</p>
+                    <button class="btn-secondary">Add</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/71psKMwwpjS._AC_UL1500_.jpg" class="product-img">
+                <div class="product-info">
+                    <h3>Leather Jacket</h3>
+                    <p class="price">$85.00</p>
+                    <button class="btn-secondary">Add</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop" class="product-img">
+                <div class="product-info">
+                    <h3>Sport Shoe</h3>
+                    <p class="price">$120.00</p>
+                    <button class="btn-secondary">Add</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500&auto=format&fit=crop" class="product-img">
+                <div class="product-info">
+                    <h3>Totebag</h3>
+                    <p class="price">$60.00</p>
+                    <button class="btn-secondary">Add</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+    <section id="offers" class="offer-section">
+        <div class="offer-content">
+            <h2>Exclusive Deal!</h2>
+            <p>Get flat <strong>30% OFF</strong> on all accessories using code: <strong>SALE30</strong></p>
+            <button class="btn-white">Grab Offer</button>
+        </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer-container">
+            <div class="footer-col">
+                <h4>HP styling</h4>
+                <p>Your one-stop shop for everything trendy.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Email: harshpotai594@gmail.com</li>
+                    <li>Phone: +91 7879421603</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 HP styling. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+        });
+    </script>
+</body>
+</html>
+</body>
+</html>
